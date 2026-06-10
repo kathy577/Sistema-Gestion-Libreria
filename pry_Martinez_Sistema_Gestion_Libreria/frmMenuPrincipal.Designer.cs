@@ -174,6 +174,7 @@
             this.importarProductosToolStripMenuItem.Name = "importarProductosToolStripMenuItem";
             this.importarProductosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.importarProductosToolStripMenuItem.Text = "Importar Productos";
+            this.importarProductosToolStripMenuItem.Click += new System.EventHandler(this.importarProductosToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 

@@ -97,5 +97,10 @@ namespace pry_Martinez_Sistema_Gestion_Libreria
             frmHistorialVentas frm = new frmHistorialVentas();
             frm.ShowDialog();
         }
+
+        private void importarProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
