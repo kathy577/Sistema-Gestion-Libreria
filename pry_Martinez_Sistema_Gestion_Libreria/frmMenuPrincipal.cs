@@ -69,9 +69,33 @@ namespace pry_Martinez_Sistema_Gestion_Libreria
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sistema de Librería v1.0\nDesarrollado por Martinez\n2026\nContacto: soporte@libreria.com",
+            MessageBox.Show("Sistema de Librería v1.0\nDesarrollado por Martinez Katherina \n2026\nComision : Turno Noche\nContacto: kmartinez00896@gmail.com",
                 "Acerca de", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+        }
+
+        private void nuevasVentasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNuevasVentas frm = new frmNuevasVentas();
+            frm.ShowDialog();
+        }
+
+        private void productosConBajoStockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmReportes frm = new frmReportes();
+            frm.ShowDialog();
+        }
+
+        private void clientesRegistradosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmClientesRegistrado frm = new frmClientesRegistrado();
+            frm.ShowDialog();
+        }
+
+        private void historialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHistorialVentas frm = new frmHistorialVentas();
+            frm.ShowDialog();
         }
     }
 }
