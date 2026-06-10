@@ -69,7 +69,7 @@ namespace pry_Martinez_Sistema_Gestion_Libreria
 
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sistema de Librería v1.0\nDesarrollado por Martinez Katherina \n2026\nComision : Turno Noche\nContacto: kmartinez00896@gmail.com",
+            MessageBox.Show("Sistema de Librería\nDesarrollado por Martinez Katherina \n2026\nComision : Turno Noche\nContacto: kmartinez00896@gmail.com",
                 "Acerca de", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
